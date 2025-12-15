@@ -1,19 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+carreira:
+  label: Carreira
+  permalink: /carreira
+  description: Dicas e reflexões sobre carreira, desenvolvimento profissional e mercado de trabalho.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+programacao:
+  label: Programação
+  permalink: /programacao
+  description: Conteúdo relacionado com programação, linguagens e desenvolvimento de software.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+java:
+  label: Java
+  permalink: /java
+  description: Conteúdo relacionado com a linguagem Java, frameworks e boas práticas.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+livros:
+  label: Livros
+  permalink: /livros
+  description: Resenhas e recomendações de livros sobre tecnologia, desenvolvimento e carreira.

@@ -2,7 +2,7 @@
 slug: long-blog-post
 title: Long Blog Post
 authors: mario
-tags: [hello, docusaurus]
+tags: [carreira]
 ---
 
 This is the summary of a very long blog post,

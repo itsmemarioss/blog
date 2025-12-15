@@ -28,3 +28,20 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* call to action */
+.call-to-action {
+  padding: 20px;
+  background-color: #f7f8f9;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.call-to-action h2 {
+  margin-bottom: 10px;
+}
+
+.call-to-action p {
+  margin-bottom: 20px;
+}

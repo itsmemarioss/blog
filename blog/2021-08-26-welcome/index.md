@@ -2,7 +2,7 @@
 slug: welcome
 title: Welcome
 authors: [mario]
-tags: [facebook, hello, docusaurus]
+tags: [carreira]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
