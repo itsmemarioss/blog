@@ -6,7 +6,7 @@ tags: [carreira]
 ---
 import CallToAction from '@site/src/components/CallToAction';
 
-![Elétrico em Lisboa](aayush-gupta-ljhCEaHYWJ8-unsplash.jpg)
+![Imagem de um elétrico em Lisboa](https://unsplash.com/photos/ljhCEaHYWJ8/download?force=true&w=1920)
 
 Depois de alguns anos trabalhando como programador no interior do Ceará, decidi que precisava tentar passos maiores na minha carreira. A região que vivia, o cariri cearense, ainda não se tornou um polo tecnológico, portanto, conseguir um bom emprego na área de TI por lá pode não ser tão fácil, já que a região não absorve todos os profissionais que a mesma forma.
 

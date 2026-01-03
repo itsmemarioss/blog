@@ -5,7 +5,7 @@ authors: [mario]
 tags: [programacao]
 ---
 
-![Código ilegível](markus-spiske-cvBBO4PzWPg-unsplash-980x640.jpg.png)
+![Código ilegível](https://unsplash.com/photos/cvBBO4PzWPg/download?force=true&w=1920)
 
 Certamente você já trabalhou ou trabalhará com código legado durante sua carreira, pois nem sempre estaremos em projetos novos com tecnologias novas, certo? Errado.
 
