@@ -80,6 +80,7 @@ const config: Config = {
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/book-club', label: 'Book club', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
