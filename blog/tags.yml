@@ -17,3 +17,13 @@ livros:
   label: Livros
   permalink: /livros
   description: Resenhas e recomendações de livros sobre tecnologia, desenvolvimento e carreira.
+
+idiomas:
+  label: Idiomas
+  permalink: /idiomas
+  description: Conteúdo sobre aprendizado de idiomas, prática e recursos úteis.
+
+desenvolvimento-de-software:
+  label: Desenvolvimento de Software
+  permalink: /desenvolvimento-de-software
+  description: Conteúdo sobre engenharia de software, boas práticas e temas de desenvolvimento.
