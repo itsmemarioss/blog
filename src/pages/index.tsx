@@ -60,21 +60,20 @@ export default function Home(): ReactNode {
             <Heading as="h2">System.out.println("Hello world");</Heading>
             <p>
               Hello world! Me chamo Mário, sou natural de Juazeiro do Norte -
-              Ceará, atualmente moro em Lisboa, Portugal. Criei esse site para compartilhar informações e
-              projetos que possam ser úteis para jovens profissionais de TI.
+              Ceará, atualmente moro em Lisboa, Portugal. Criei este site para compartilhar informações e
+              projetos que possam ser úteis para outras pessoas interessadas em tecnologia.
             </p>
             <p>
-              Às vezes, algumas pessoas me procuram e
-              pedem opinião sobre assuntos técnicos, como tirar
-              certificações, como eu aprendi inglês etc... Percebi que mesmo não
-              me considerando apto para responder muitas das dúvidas, na maioria
-              das vezes a minha experiência contribuía de alguma forma. Por isso, 
-              decidi criar esse espaço para compartilhar um pouco do que eu sei e 
-              do que eu estou aprendendo. Espero que seja útil para alguém!
+              Às vezes, recebo dúvidas sobre assuntos técnicos, como tirar
+              certificações, como aprender inglês etc... Percebi que mesmo não
+              me considerando apto para responder muitas delas, na maioria
+              das vezes minha experiência contribuía de alguma forma. Por isso, 
+              decidi criar este espaço para compartilhar um pouco do que sei e 
+              do que estou aprendendo. Espero que seja útil!
             </p>
             <p>
               Além disso, a área de tecnologia exige um estudo contínuo e para mim as
-              melhores formas de aprender são: compartilhando e fazendo. O que faz desse
+              melhores formas de aprender são: compartilhando e fazendo. O que faz deste
               site minha ferramenta de aprendizado, além de documentar qualquer crazy project
               que eu decida fazer. Bem-vindo!
             </p>
