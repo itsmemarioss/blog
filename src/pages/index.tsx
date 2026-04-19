@@ -1,28 +1,46 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={styles.heroBanner}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+        <div className={styles.heroGrid}>
+          <div>
+            <p className={styles.kicker}>Its me Mario</p>
+            <Heading as="h1" className={styles.heroTitle}>
+              Mário Sousa
+            </Heading>
+            <p className={styles.heroSubtitle}>
+              Empreendedor (quase), fotógrafo (nas horas vagas), voluntário e
+              engenheiro de software.
+            </p>
+            <div className={styles.heroActions}>
+              <Link className="button button--primary button--lg" to="/blog">
+                Ver blog
+              </Link>
+              <a
+                className="button button--secondary button--lg"
+                href="https://discord.gg/Hy6ybESjku"
+                target="_blank"
+                rel="noreferrer">
+                Entrar no Discord
+              </a>
+            </div>
+          </div>
+
+          <aside className={styles.profileCard}>
+            <img
+              className={styles.profileImage}
+              src="img/me.png"
+              alt="Mário sorrindo, usando uma camisa preta e fazendo o sinal de v de vitória com a mão direita."
+            />
+          </aside>
         </div>
       </div>
     </header>
@@ -36,8 +54,49 @@ export default function Home(): ReactNode {
       title={`${siteConfig.title} - Tech blog`}
       description="Meu blog sobre tecnologia, programação e afins.">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <main className={styles.mainContent}>
+        <section className="container">
+          <div className={styles.sectionCard}>
+            <Heading as="h2">System.out.println("Hello world");</Heading>
+            <p>
+              Hello world! Me chamo Mário, sou natural de Juazeiro do Norte -
+              Ceará, atualmente moro em Lisboa, Portugal. Criei esse site para compartilhar informações e
+              projetos que possam ser úteis para jovens profissionais de TI.
+            </p>
+            <p>
+              Às vezes, algumas pessoas me procuram e
+              pedem opinião sobre assuntos técnicos, como tirar
+              certificações, como eu aprendi inglês etc... Percebi que mesmo não
+              me considerando apto para responder muitas das dúvidas, na maioria
+              das vezes a minha experiência contribuía de alguma forma. Por isso, 
+              decidi criar esse espaço para compartilhar um pouco do que eu sei e 
+              do que eu estou aprendendo. Espero que seja útil para alguém!
+            </p>
+            <p>
+              Além disso, a área de tecnologia exige um estudo contínuo e para mim as
+              melhores formas de aprender são: compartilhando e fazendo. O que faz desse
+              site minha ferramenta de aprendizado, além de documentar qualquer crazy project
+              que eu decida fazer. Bem-vindo!
+            </p>
+          </div>
+        </section>
+
+        <section className="container">
+          <div className={styles.quickLinks}>
+            <Link className={styles.quickLinkCard} to="/blog">
+              <h3>Blog</h3>
+              <p>Artigos sobre engenharia de software, carreira e aprendizado.</p>
+            </Link>
+            <Link className={styles.quickLinkCard} to="/book-club">
+              <h3>Book Club</h3>
+              <p>Leituras e recomendações para evolução técnica.</p>
+            </Link>
+            <Link className={styles.quickLinkCard} to="/projetos">
+              <h3>Projetos</h3>
+              <p>Ideias, experimentos e projetos em andamento.</p>
+            </Link>
+          </div>
+        </section>
       </main>
     </Layout>
   );

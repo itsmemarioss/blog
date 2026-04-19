@@ -98,41 +98,53 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
+          title: 'Navegação',
           items: [
             {
               label: 'Blog',
               to: '/blog',
             },
             {
+              label: 'Book club',
+              to: '/book-club',
+            },
+            {
+              label: 'Tutoriais',
+              to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'Social',
+          items: [
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/mariosantossousa',
+            },
+            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/itsmemarioss',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/itsmemarioss/',
+            },
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/mario.santosousa',
+            },
+            {
+              label: 'Flickr',
+              href: 'https://www.flickr.com/photos/146369600@N07',
+            },
+          ],
+        },
+        {
+          title: 'Comunidade',
+          items: [
+            {
+              label: 'Discord Cariri TI',
+              href: 'https://discord.gg/Hy6ybESjku',
             },
           ],
         },
